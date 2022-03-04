@@ -18,7 +18,7 @@ The "frame number" is useful for accessing the position and orientation of peopl
 
 corrupted images: #26,3460,3461,3462,3463
 
-Motion-capture-data.csv
+\Motion-capture-data.csv
 There are 3482 lines in this file. The first row is the name of the columns. The next 3481 rows (2 to 3482) are the frames associated with the photos in the "Images" folder. 
 Each row has the data of participants like the following: {[data of participant1],[data of participant2],[data of participant3] ... [data of participant7]}
 Each participant has 10 fields as follows [Name,HeadX,HeadY,HeadRotation,TorsoX,TorsoY,TorsoRotation,Hieght,FrameNum,Time]
@@ -33,4 +33,17 @@ TorsoRotation: Torso orientation which in gradient.
 Hieght: Z position of the head which is in meters.
 FrameNum: This is the frame number provided by the Vicon System motion capture camera ( PLEASE IGNORE THIS FIELD as it might be confusing with what we called as "frame number")
 Time: The timestamp of the frame provided by the Vicon system.
+
+Important: Please note that when all the columns for a participant is [HeadX,HeadY,HeadRotation] or [TorsoX,TorsoY,TorsoRotation] is all zeros e.g.,{0,0,0] it means that either the participants is not in the scene or the motion capture camera can not detect it. 
+
+
+\features.mat
+It is a cleaned-up version of the "Motion-capture-data.csv" file. Since we used the Graphcut algorithm as our baseline, we made the position and orientation of participants compatible with the Graphcut implementation in Matlab by Francesco Setti( can be found https://github.com/franzsetti/GCFF). If you copy it in the "GCFF" folder, it should work. The original "features.mat" by Setti has four columns : [ID, x, y, orientation]. Our features.mat hast 3 additional columns 
+[ ID, Head x, Head y, Head orientation , Torso x, Torso y, Torso orientation]
+
+\annotated-frames.csv
+It has the f-formations ground-truth annotated by two annotators. The first column is the "frame number" and the second column is the id of the participants who are in an F-formation. e.g.,  in the 75th row of the file, the data is 2675, {[3 4 7]} which means in the "frame number" 2675, there is only one F-formation and the participants with ids 3,4 and 7 are in it. 
+
+
+
 
