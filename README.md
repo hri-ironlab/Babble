@@ -5,6 +5,12 @@ by Hooman Hedayati, Annika Muelbradt, Daniel Szafir and Sean Andrist
 
 ### Introduction
 
+<p align="center">
+    <img src=".github/media/Babble-gif.gif" width="300">
+    <br>
+    <sup>Babble Dataset</sup>
+</p>
+
 > *An F-formation arises whenever two or more people sustain a spatial and orientational relationship in which the space between them is one to which they have equal, direct, and exclusive access.*
 > [A. Kendon, 1990]
 
@@ -13,6 +19,7 @@ The Babble dataset consists of a 35-minute recording of conversational interacti
 ### Citing Babble Dataset
 
 If you find Babble useful in your research, please consider citing:
+
 	@inproceedings{hedayati2020reform,
 		title={Reform: Recognizing f-formations for social robots},
 		author={Hedayati, Hooman and Muehlbradt, Annika and Szafir, Daniel J and Andrist, Sean},
