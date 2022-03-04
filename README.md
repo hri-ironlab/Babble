@@ -13,6 +13,7 @@ The Babble dataset consists of a 35-minute recording of conversational interacti
 ### Citing Babble Dataset
 
 If you find Babble useful in your research, please consider citing:
+
 	@inproceedings{hedayati2020reform,
 		title={Reform: Recognizing f-formations for social robots},
 		author={Hedayati, Hooman and Muehlbradt, Annika and Szafir, Daniel J and Andrist, Sean},
