@@ -1,4 +1,4 @@
-Please contact cuironlab@colorado.edu to gain access to the dataset.
+Please let us know if you have any question or comments. We would love to help and improve the dataset.
 
 Citation:
 @inproceedings{hedayati2020reform,
@@ -8,7 +8,6 @@ Citation:
   pages={11181--11188},
   organization={IEEE}
 }
-
 
 What's in the dataset:
 
