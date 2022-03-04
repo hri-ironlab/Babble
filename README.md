@@ -6,7 +6,7 @@ by Hooman Hedayati, Annika Muelbradt, Daniel Szafir and Sean Andrist
 ### Introduction
 
 <p align="center">
-    <img src=".github/media/Babble-gif.gif" width="300">
+    <img src="https://github.com/cu-ironlab/Babble/blob/master/media/Babble-gif.gif" width="300">
     <br>
     <sup>Babble Dataset</sup>
 </p>
