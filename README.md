@@ -14,7 +14,7 @@ by Hooman Hedayati, Annika Muelbradt, Daniel Szafir and Sean Andrist
 > *An F-formation arises whenever two or more people sustain a spatial and orientational relationship in which the space between them is one to which they have equal, direct, and exclusive access.*
 > [A. Kendon, 1990]
 
-The Babble dataset consists of a 35-minute recording of conversational interactions between 7 individuals with precisely recorded head and body positions and orientations via the Vicon motion-tracking system and a portion of it is labeled F-formations from two annotators. Babble dataset has a total of 3481 frames with 3 photos assigned to each frame.
+The Babble dataset consists of a 35-minute recording of conversational interactions between 7 individuals with precisely recorded head and body positions and orientations via the Vicon motion-tracking system and a portion of it is labeled F-formations from two annotators. Babble dataset has a total of 3481 frames with 3 photos assigned to each frame. The Babble dataset is currently available only for researchers and none commercial purposes. 
 
 ### Citing Babble Dataset
 
@@ -70,7 +70,7 @@ It has the f-formations ground-truth annotated by two annotators. The first colu
 
 ### Contacts
 
-For any problem by using this with the dataset, please send an email.
+For any problem by using this with the dataset, please send an email to cuironlab@gmail.com.
 
 
 
